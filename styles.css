@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html,
+body,
+#host-layer,
+#machine-app {
+  width: 100%;
+  height: 100%;
+}
+
+#host-layer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #333652;
+}
+
+#box {
+  height: 650px;
+  width: 500px;
+  background-color: #e9eaec;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#input-pad {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.num-pad {
+  width: 345px;
+}
+
+.operator-pad {
+  display: flex;
+  flex-direction: column;
+  width: 115px;
+}
+
+.pad {
+  background-color: #90adc6;
+  margin: 5px;
+  border-radius: 10px;
+  height: 70px;
+}
+
+.click-operator {
+  width: 105px;
+}
+
+#result-pad {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px 0px;
+}
+
+.result-pad {
+  width: 215px;
+  margin: 17px;
+}
+
+#screen {
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #cddeee;
+  width: 450px;
+  height: 130px;
+  font-size: 2.3em;
+  display: flex;
+  flex-direction: column;
+}
+
+#input-display,
+#display {
+  width: 100%;
+  height: 50%;
+}
+
+#input-display {
+  text-align: left;
+}
+
+#display {
+  text-align: right;
+}
